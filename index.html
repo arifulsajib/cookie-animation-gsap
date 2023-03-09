@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="d-flex align-items-center justify-content-center container">
-    <div class="cookie-container d-flex align-items-center justify-content-between p-3 text-white rounded">
+    <div class="cookie-container d-flex align-items-center justify-content-between p-3 text-white rounded overflow-hidden">
       <div>
         <!-- svg cookie img -->
-        <svg id="cookie" width="94" height="94" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg id="cookie" class="overflow-visible" width="94" height="94" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="cookies-svgrepo-com 1" clip-path="url(#clip0_1_3)">
             <g>
               <path
@@ -210,17 +210,13 @@
               </g>
             </g>
           </g>
-          <defs>
-            <clipPath id="clip0_1_3">
-              <rect width="136" height="136" fill="white" />
-            </clipPath>
-          </defs>
+          <defs></defs>
         </svg>
       </div>
-      <div class="p-4">
-        <h3>Cookie</h3>
+      <div class="p-4 text">
+        <h3>Cookie Policy</h3>
         <p class="w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, provident.</p>
-        <button class="btn btn-light"> Okay, got it </button>
+        <button class="btn btn-light" id="confirm-btn"> Okay, got it </button>
       </div>
     </div>
 
